@@ -11,17 +11,13 @@
     <header>
         <nav class="navbar gradient-divider">
             <div>
-                <div class="logo">
+                <div class="logo" href="/index.html">
                     <img src="res/ddclogonew.png" class="logo-display">
                     <div class="vertical-divider desktop-visible"></div>
                     <img src="res/logowide-clear.png" class="logo-display2">
-                    <!-- <h3 id="logotext">Dennisonung <a style="color:rgb(100, 16, 255)">Development</a> <a style="color:#1d8ef8">Center</a></h3> -->
-
                 </div>
                 <div class="nav-right">
                     <h1><a href="index.html">Home</a></h1>
-                    <div class="vertical-divider desktop-visible"></div>
-                    <h1><a href="Services.html">Services</a></h1>
                     <div class="vertical-divider desktop-visible"></div>
                     <h1><a href="https://info.ddc.gg/projects.html">Projects</a></h1>
                     <div class="vertical-divider desktop-visible"></div>
@@ -44,25 +40,66 @@
     </div>
     <script src="res/mobile.js"></script>
 
+    <style>
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            background-color: #1a1a1a;
+            /* Optional background for contrast */
+            border-radius: 10px;
+            /* Optional rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* Subtle shadow */
+        }
+
+        .text-center {
+            margin-bottom: 15px;
+        }
+
+        .services-list {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2rem;
+        }
+
+        .services-list>li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .services-list>ul {
+            margin-top: 5px;
+            list-style-type: none;
+            font-weight: normal;
+            font-size: 1rem;
+        }
+    </style>
+
     <div class="content">
-        <h1>We provide multiple services</h1>
-        <li>Web Development</li>
-        <li>App Development</li>
-        <li>Game Development</li>
-        <li>Graphic Design</li>
-        <li>Video Editing</li>
-        <li>File Hosting</li>
-        <li>Server Hosting</li>
-        <li>Domain Hosting</li>
-        <li>Software Publishing</li>
-        <ul style="margin:0;">
-            <li>Steamworks</li>
-            <li>Google Play</li>
-            <li>App Store</li>
-            <li>Online</li>
+        <h1 class="text-center">Our Services</h1>
+        <p class="text-center">We provide a wide range of services tailored to your needs:</p>
+        <ul class="services-list">
+            <li>Web Development</li>
+            <li>App Development</li>
+            <li>Game Development</li>
+            <li>Graphic Design</li>
+            <li>Video Editing</li>
+            <li>File Hosting</li>
+            <li>Server Hosting</li>
+            <li>Domain Hosting</li>
+            <li>Software Publishing</li>
+            <ul>
+                <li>Steamworks</li>
+                <li>Google Play</li>
+                <li>App Store</li>
+                <li>Online</li>
+            </ul>
         </ul>
-        
     </div>
+
 
 </body>
 
