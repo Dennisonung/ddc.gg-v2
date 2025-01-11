@@ -67,6 +67,19 @@ body {
     background: #f54949;
 }
 
+a:link {
+    color: #f54949;
+}
+a:active {
+    color: #fff;
+}
+a:visited {
+    color: #6f00ff;
+}
+a:hover {
+    color: #0099ff;
+}
+
 .navbar>div {
     display: flex;
     align-items: center;
@@ -259,3 +272,21 @@ body {
     border: 2px solid #fffffc;
     color: #fffffc!important;
 }
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
